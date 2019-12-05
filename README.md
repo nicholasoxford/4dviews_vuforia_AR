@@ -108,9 +108,73 @@ Next right click where the camera and light were, find "Vuforia" and click AR Ca
 
 Next click the AR Camera and look over in the "inspector". You should see a button called "Open Vuforia Engine Configuration". Click it. 
 
-
 * [Go back to your development key and copy the entire string](https://developer.vufooria.com/vui/develop/licenses).
 * Find "App License Key" and paste your key. 
 
 Under Databases, what ever the name of the database you imported should appear.
 I also uncheck Video Background
+
+Next right click AR Camera and chose "Image". Now what ever photo was in your database should autoappear. If not look in the inspector for Image Target Behavior. 
+
+## Step 6
+### Adding a 3D Object + Testing
+
+Now we need to add a test object. Right click the ImageTarget, click 3D object, and then Cube. 
+I had to scale it down (Press R) to be a more relevant size to my target.
+Next I move it upwards so it's fully on top of my image. I move it by pressing W and dragging up, you can also do this in the inspector. 
+
+*Click Play*
+
+Now your webcam should turn on and it should auto switch to the game mode. What ever photo you uploaded to the database pull up on your phone, and if the glare isn't too bad the cube should pop up.
+
+If your webcam comes up black, I found deleting the AR Camera and all its children + readding them should work.
+
+## Step 7
+### Adding your 4DViews asset.
+
+* Now that we got our cube to pop up on top of our target image we can delete the cube. 
+* Next under the project window click Assets -> 4DViews -> Prefabs
+![](https://github.com/nicholasoxford/4dviews_vuforia_AR/blob/master/screenshots/Screen%20Shot%202019-12-05%20at%204.28.14%20PM.png?raw=true)
+
+* Drag the asset called "Sequence4Ds" to  "Image Target" so it becomes a child. 
+
+*Locate your 4dViews file (.4ds) and add it to the StreamingAssets folder.*
+
+* Click the drop down next to Sequence4Ds in the hierarchy (where your camera and image target are).
+* Click on "Mesh4ds" and look at the inspector. 
+* Locate the section "Plugin 4DS (script) 
+* Drag your 4DSViews file to this bar and it will autopopulate the path. 
+![](https://github.com/nicholasoxford/4dviews_vuforia_AR/blob/master/screenshots/Screen%20Shot%202019-12-05%20at%204.34.37%20PM.png?raw=true)
+
+Your 3D asset should pop up. *Make sure to scale it up or down to be relevant to your target.*
+
+## Click play and your app should work. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
