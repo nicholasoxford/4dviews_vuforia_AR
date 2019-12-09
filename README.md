@@ -1,8 +1,8 @@
-# Creating a augmented reality app with 4DViews Volumetric Capture
+# Creating an augmented reality app with 4DViews Volumetric Capture
 
 For my second volumetric class I wanted to not only get an engaging capture, but also deploy it to an augmented reality (AR) app on my iPhone. After successfully deploying an AR app using a 4DViews Capture + Unity plugin, I was very aware of the lack of tutorials and documentation around each step of the process. To make easier for my classmates to deploy and showcase their awesome work, I decided to make a step-by-step guide. 
 
-While this is a good, general Vuforia tutorial, this is really meant for people utilizing a [4DViews](https://www.4dviews.com/) system. \I have my full repository uploaded, this guide should be follow step by step. Also, I am using a **Mac** and I'm deploying to **iPhone**. Using windows and android should not only be similar but easier to deploy. 
+While this is a good, general Vuforia tutorial, this is really meant for people utilizing a [4DViews](https://www.4dviews.com/) system. I have my full repository uploaded, this guide should be follow step by step. Also, I am using a **Mac** and I'm deploying to **iPhone**. Using windows and android should not only be similar but easier to deploy. 
 
 I am not an iOS developer, so I am encouraging people to submit Pull Request if their code is better. (It probably is)
 
