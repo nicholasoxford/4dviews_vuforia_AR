@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A6790A76-98C2-3DE0-3795-75AC83CDBE10}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/4DViews/Scripts/Plugin4DS.cs">
+    <Files>
+      <File FileName="Assets/4DViews/Scripts/Plugin4DS.cs" Line="52" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e1e6ad23-b88e-4523-b826-a859e49b1034" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
