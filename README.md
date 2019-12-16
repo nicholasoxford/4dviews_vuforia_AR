@@ -1,6 +1,6 @@
 # Creating an augmented reality app with 4DViews Volumetric Capture
 
-###[CLick Here For a Video of the Capture + iOS APP](https://www.youtube.com/watch?v=AOq1-qcb6Nk&feature=youtu.be)
+[CLick Here For a Video of the Capture + iOS APP](https://www.youtube.com/watch?v=AOq1-qcb6Nk&feature=youtu.be)
 
 For my second volumetric class I wanted to not only get an engaging capture, but also deploy it to an augmented reality (AR) app on my iPhone. After successfully deploying an AR app using a 4DViews Capture + Unity plugin, I was very aware of the lack of tutorials and documentation around each step of the process. To make easier for my classmates to deploy and showcase their awesome work, I decided to make a step-by-step guide. 
 
